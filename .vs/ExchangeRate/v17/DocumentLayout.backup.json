@@ -1,7 +1,52 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\persistence\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\persistence\\repositories\\loginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\domain\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\domain\\iservices\\iloginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\domain\\irepositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\domain\\irepositories\\iloginrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\startup.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\profileautomapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\profileautomapper\\automapperprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\persistence\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\persistence\\models\\usuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|c:\\users\\pc\\source\\repos\\exchangerate\\exchangerate\\utils\\jwtconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AAA815E3-15D0-4273-AA7F-497092C6C38B}|ExchangeRate\\ExchangeRate.csproj|solutionrelative:exchangerate\\utils\\jwtconfigurator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +54,154 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Startup.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Startup.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Startup.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Startup.cs",
+              "RelativeToolTip": "ExchangeRate\\Startup.cs",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAkwA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:10:10.902Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ILoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Domain\\IRepositories\\ILoginRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Domain\\IRepositories\\ILoginRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Domain\\IRepositories\\ILoginRepository.cs",
+              "RelativeToolTip": "ExchangeRate\\Domain\\IRepositories\\ILoginRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:23:40.087Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ILoginService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Domain\\IServices\\ILoginService.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Domain\\IServices\\ILoginService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Domain\\IServices\\ILoginService.cs",
+              "RelativeToolTip": "ExchangeRate\\Domain\\IServices\\ILoginService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:30:38.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Persistence\\Repositories\\LoginRepository.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Persistence\\Repositories\\LoginRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Persistence\\Repositories\\LoginRepository.cs",
+              "RelativeToolTip": "ExchangeRate\\Persistence\\Repositories\\LoginRepository.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwB4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:26:02.992Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "ExchangeRate\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwBkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:31:51.942Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Services\\LoginService.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Services\\LoginService.cs",
+              "RelativeToolTip": "ExchangeRate\\Services\\LoginService.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAuwBAAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:28:46.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "AutoMapperProfiles.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\ProfileAutoMapper\\AutoMapperProfiles.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\ProfileAutoMapper\\AutoMapperProfiles.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\ProfileAutoMapper\\AutoMapperProfiles.cs",
+              "RelativeToolTip": "ExchangeRate\\ProfileAutoMapper\\AutoMapperProfiles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T18:15:20.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UsuarioDTO.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\DTOs\\UsuarioDTO.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\DTOs\\UsuarioDTO.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\DTOs\\UsuarioDTO.cs",
+              "RelativeToolTip": "ExchangeRate\\DTOs\\UsuarioDTO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T18:12:52.879Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\appsettings.json",
+              "RelativeDocumentMoniker": "ExchangeRate\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\appsettings.json",
+              "RelativeToolTip": "ExchangeRate\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-08-09T17:08:57.67Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "JwtConfigurator.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Utils\\JwtConfigurator.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Utils\\JwtConfigurator.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Utils\\JwtConfigurator.cs",
+              "RelativeToolTip": "ExchangeRate\\Utils\\JwtConfigurator.cs",
+              "ViewState": "AgIAABwAAAAAAAAAAAAMwCQAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:02:33.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Usuario.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Persistence\\Models\\Usuario.cs",
+              "RelativeDocumentMoniker": "ExchangeRate\\Persistence\\Models\\Usuario.cs",
+              "ToolTip": "C:\\Users\\PC\\source\\repos\\ExchangeRate\\ExchangeRate\\Persistence\\Models\\Usuario.cs",
+              "RelativeToolTip": "ExchangeRate\\Persistence\\Models\\Usuario.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-09T17:06:45.195Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
