@@ -5,8 +5,8 @@ using ExchangeRate.Persistence.Models;
 using System.Threading.Tasks;
 
 namespace BackEnd.Services
-{ 
-    public class LoginService: ILoginService
+{
+    public class LoginService : ILoginService
     {
         private readonly ILoginRepository _loginRepository;
         public LoginService(ILoginRepository loginRepository)
@@ -16,7 +16,7 @@ namespace BackEnd.Services
 
         public async Task<Usuario> ValidateUser(UsuarioDTO usuario)
         {
-                return await _loginRepository.ValidateUser(usuario);
+            return await _loginRepository.ValidateUser(usuario);
 
         }
     }

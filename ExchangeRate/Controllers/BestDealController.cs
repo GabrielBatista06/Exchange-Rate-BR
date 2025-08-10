@@ -1,8 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System.Threading.Tasks;
-using System;
-using ExchangeRate.DTOs;
+﻿using ExchangeRate.DTOs;
 using ExchangeRate.Services;
+using Microsoft.AspNetCore.Mvc;
+using System;
+using System.Threading.Tasks;
 
 namespace ExchangeRate.Controllers
 {

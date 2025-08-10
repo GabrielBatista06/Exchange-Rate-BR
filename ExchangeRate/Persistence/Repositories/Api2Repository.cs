@@ -1,8 +1,6 @@
 ﻿using ExchangeRate.Domain.IRepositories;
 using ExchangeRate.DTOs;
 using ExchangeRate.Utils;
-using System.Net.Http;
-using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
 
@@ -24,7 +22,7 @@ namespace ExchangeRate.Persistence.Repositories
             );
 
             var xmlOutput = new XElement("XML", new XElement("Result", valor * rQProcessDTO.Amount));
-            var rate = decimal.Parse(xmlOutput.Element("Result")!.Value) ;
+            var rate = decimal.Parse(xmlOutput.Element("Result")!.Value);
 
             return new RSProcessDTO
             {

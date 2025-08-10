@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExchangeRate.Persistence.Repositories
 {
-    public class Api1Repository: IObtenerRemesaRepository
+    public class Api1Repository : IObtenerRemesaRepository
     {
         //Estoy utilizando método async para simular EF (Entity Framework)
         public async Task<RSProcessDTO> ObtenerMejorOferta(RQProcessDTO request)
@@ -15,7 +15,7 @@ namespace ExchangeRate.Persistence.Repositories
             var valor = exchangeRateRandom.GenerarNumeroRandom();
 
             var input = new { from = request.SourceCurrency, to = request.TargetCurrency, value = request.Amount };
-            var response = new { rate = valor * request.Amount};
+            var response = new { rate = valor * request.Amount };
 
             return new RSProcessDTO
             {

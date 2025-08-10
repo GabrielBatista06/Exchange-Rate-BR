@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace BackEnd.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]    
+    [ApiController]
     public class LoginController : ControllerBase
     {
         private readonly IConfiguration _configuration;
@@ -27,8 +27,8 @@ namespace BackEnd.Controllers
         {
             try
             {
-  
-                var user =await _loginService.ValidateUser(usuario);
+
+                var user = await _loginService.ValidateUser(usuario);
 
                 if (user == null)
                 {
@@ -36,7 +36,7 @@ namespace BackEnd.Controllers
 
                 }
                 string tokenString = JwtConfigurator.GetToken(user, _configuration);
-                return Ok(new { token = tokenString});
+                return Ok(new { token = tokenString });
             }
             catch (Exception ex)
             {

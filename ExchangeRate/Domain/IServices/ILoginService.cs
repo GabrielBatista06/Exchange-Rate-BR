@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Domain.IServices
 {
- public interface ILoginService
+    public interface ILoginService
     {
         Task<Usuario> ValidateUser(UsuarioDTO usuarioDto);
     }

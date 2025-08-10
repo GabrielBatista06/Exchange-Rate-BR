@@ -1,9 +1,9 @@
-﻿using System.Collections.Generic;
-using System.Threading.Tasks;
-using System;
+﻿using ExchangeRate.Domain.IRepositories;
 using ExchangeRate.DTOs;
+using System;
+using System.Collections.Generic;
 using System.Linq;
-using ExchangeRate.Domain.IRepositories;
+using System.Threading.Tasks;
 
 namespace ExchangeRate.Services
 {
@@ -16,7 +16,7 @@ namespace ExchangeRate.Services
             _remesaServices = remesaServices;
         }
 
-        public async Task<RSProcessDTO> ObtenerMejorOfertaRemesa (RQProcessDTO request)
+        public async Task<RSProcessDTO> ObtenerMejorOfertaRemesa(RQProcessDTO request)
         {
             var tasks = _remesaServices.Select(p => p.ObtenerMejorOferta(request));
             var results = await Task.WhenAll(tasks);

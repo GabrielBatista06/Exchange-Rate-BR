@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ExchangeRate.Persistence.Repositories
 {
-    public class Api3Repository: IObtenerRemesaRepository
+    public class Api3Repository : IObtenerRemesaRepository
     {
         //Estoy utilizando método async para simular EF (Entity Framework)
         public async Task<RSProcessDTO> ObtenerMejorOferta(RQProcessDTO rQProcessDTO)

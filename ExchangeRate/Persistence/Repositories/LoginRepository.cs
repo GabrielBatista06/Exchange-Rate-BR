@@ -7,13 +7,13 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Persistence.Repositories
 {
-    
-    public class LoginRepository: ILoginRepository
+
+    public class LoginRepository : ILoginRepository
     {
         private readonly IMapper _mapper;
         public LoginRepository(IMapper mapper)
         {
-                _mapper = mapper;
+            _mapper = mapper;
         }
         //Lista de usuario cargada en memoria, ya que la evaluación dice: No SQL required
         private List<Usuario> usuarios = new List<Usuario>
@@ -35,8 +35,8 @@ namespace BackEnd.Persistence.Repositories
                     return _mapper.Map<UsuarioDTO>(user);*/
                 }
             }
-            return null; 
+            return null;
         }
     }
-    }
+}
 

@@ -4,7 +4,7 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Domain.IRepositories
 {
-  public  interface ILoginRepository
+    public interface ILoginRepository
     {
 
         Task<Usuario> ValidateUser(UsuarioDTO usuarioDto);

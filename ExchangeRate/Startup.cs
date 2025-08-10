@@ -1,5 +1,3 @@
-using System;
-using System.Text;
 using BackEnd.Domain.IRepositories;
 using BackEnd.Domain.IServices;
 using BackEnd.Persistence.Repositories;
@@ -15,6 +13,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
+using System;
+using System.Text;
 
 
 namespace ExchangeRate
@@ -42,9 +42,9 @@ namespace ExchangeRate
             services.AddAutoMapper(typeof(Startup));
 
             // Mocks
-           services.AddScoped<IObtenerRemesaRepository, Api1Repository>();
-           services.AddScoped<IObtenerRemesaRepository, Api2Repository>();
-           services.AddScoped<IObtenerRemesaRepository, Api3Repository>();
+            services.AddScoped<IObtenerRemesaRepository, Api1Repository>();
+            services.AddScoped<IObtenerRemesaRepository, Api2Repository>();
+            services.AddScoped<IObtenerRemesaRepository, Api3Repository>();
 
             //Service
             services.AddScoped<ILoginService, LoginService>();
@@ -77,7 +77,7 @@ namespace ExchangeRate
                 });
 
             services.AddControllers().AddNewtonsoftJson(options =>
-            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore); 
+            options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
 
 
         }
