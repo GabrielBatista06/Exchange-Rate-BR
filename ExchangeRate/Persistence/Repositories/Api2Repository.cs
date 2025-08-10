@@ -1,5 +1,6 @@
 ﻿using ExchangeRate.Domain.IRepositories;
 using ExchangeRate.DTOs;
+using ExchangeRate.Utils;
 using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
@@ -9,20 +10,28 @@ namespace ExchangeRate.Persistence.Repositories
 {
     public class Api2Repository : IObtenerRemesaRepository
     {
-        public async Task<decimal?> ObtenerMejorOferta(RQProcessDTO rQProcessDTO)
+        //Estoy utilizando método async para simular EF (Entity Framework)
+        public async Task<RSProcessDTO> ObtenerMejorOferta(RQProcessDTO rQProcessDTO)
         {
-            // Simula entrada XML
+
+            ExchangeRateRandom exchangeRateRandom = new ExchangeRateRandom();
+            var valor = exchangeRateRandom.GenerarNumeroRandom();
+
             var xmlInput = new XElement("XML",
                 new XElement("From", rQProcessDTO.SourceCurrency),
                 new XElement("To", rQProcessDTO.TargetCurrency),
                 new XElement("Amount", rQProcessDTO.Amount)
             );
 
-            // Simula salida XML: <Result>1.08</Result>
-            var xmlOutput = new XElement("XML", new XElement("Result", 1.08m));
+            var xmlOutput = new XElement("XML", new XElement("Result", valor * rQProcessDTO.Amount));
+            var rate = decimal.Parse(xmlOutput.Element("Result")!.Value) ;
 
-            var rate = decimal.Parse(xmlOutput.Element("Result")!.Value);
-            return rate * rQProcessDTO.Amount;
+            return new RSProcessDTO
+            {
+                Amount = rate * rQProcessDTO.Amount,
+                ContenidoOriginal = xmlOutput.ToString(),
+                Formato = "XML"
+            };
 
         }
     }

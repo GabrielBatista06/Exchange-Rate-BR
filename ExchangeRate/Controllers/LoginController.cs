@@ -9,9 +9,7 @@ using System.Threading.Tasks;
 namespace BackEnd.Controllers
 {
     [Route("api/[controller]")]
-    [ApiController]
-
-    
+    [ApiController]    
     public class LoginController : ControllerBase
     {
         private readonly IConfiguration _configuration;

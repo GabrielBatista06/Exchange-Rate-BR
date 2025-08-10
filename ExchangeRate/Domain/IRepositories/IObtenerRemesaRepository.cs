@@ -5,7 +5,7 @@ namespace ExchangeRate.Domain.IRepositories
 {
     public interface IObtenerRemesaRepository
     {
-        Task<decimal?> ObtenerMejorOferta(RQProcessDTO rQProcessDTO);
+        Task<RSProcessDTO> ObtenerMejorOferta(RQProcessDTO rQProcessDTO);
 
     }
 }

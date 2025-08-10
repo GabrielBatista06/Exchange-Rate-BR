@@ -8,7 +8,6 @@ namespace ExchangeRate.ProfileAutoMapper
     {
         public AutoMapperProfiles()
         {
-
             CreateMap<Usuario, UsuarioDTO>().ReverseMap();
         }
     }

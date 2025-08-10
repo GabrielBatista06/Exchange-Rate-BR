@@ -1,7 +1,6 @@
 ﻿using ExchangeRate.Domain.IRepositories;
 using ExchangeRate.DTOs;
-using System.Net.Http;
-using System.Net.Http.Json;
+using ExchangeRate.Utils;
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -9,9 +8,12 @@ namespace ExchangeRate.Persistence.Repositories
 {
     public class Api3Repository: IObtenerRemesaRepository
     {
-        public async Task<decimal?> ObtenerMejorOferta(RQProcessDTO rQProcessDTO)
-                {
-            // Simula entrada: { exchange: { sourceCurrency, targetCurrency, quantity } }
+        //Estoy utilizando método async para simular EF (Entity Framework)
+        public async Task<RSProcessDTO> ObtenerMejorOferta(RQProcessDTO rQProcessDTO)
+        {
+            ExchangeRateRandom exchangeRateRandom = new ExchangeRateRandom();
+            var valor = exchangeRateRandom.GenerarNumeroRandom();
+
             var input = new
             {
                 exchange = new
@@ -22,15 +24,19 @@ namespace ExchangeRate.Persistence.Repositories
                 }
             };
 
-            // Simula salida: { statusCode, message, data: { total } }
             var response = new
             {
                 statusCode = 200,
                 message = "OK",
-                data = new { total = 1.12m }
+                data = new { total = valor * rQProcessDTO.Amount }
             };
 
-            return response.data.total * input.exchange.quantity;
+            return new RSProcessDTO
+            {
+                Amount = response.data.total * input.exchange.quantity,
+                ContenidoOriginal = JsonSerializer.Serialize(response),
+                Formato = "JSON"
+            };
         }
     }
 }

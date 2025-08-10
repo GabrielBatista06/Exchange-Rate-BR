@@ -1,8 +1,8 @@
-﻿using BackEnd.Domain.IRepositories;
+﻿using AutoMapper;
+using BackEnd.Domain.IRepositories;
 using ExchangeRate.DTOs;
 using ExchangeRate.Persistence.Models;
 using System.Collections.Generic;
-using System.Linq;
 using System.Threading.Tasks;
 
 namespace BackEnd.Persistence.Repositories
@@ -10,7 +10,11 @@ namespace BackEnd.Persistence.Repositories
     
     public class LoginRepository: ILoginRepository
     {
-
+        private readonly IMapper _mapper;
+        public LoginRepository(IMapper mapper)
+        {
+                _mapper = mapper;
+        }
         //Lista de usuario cargada en memoria, ya que la evaluación dice: No SQL required
         private List<Usuario> usuarios = new List<Usuario>
         {
@@ -26,7 +30,9 @@ namespace BackEnd.Persistence.Repositories
             {
                 if (user.NombreUsuario == usuario.NombreUsuario && user.Password == usuario.Password)
                 {
-                    return user; 
+                    return user;
+                    /*De la siguiente manera se utiliza el Mapper
+                    return _mapper.Map<UsuarioDTO>(user);*/
                 }
             }
             return null; 
