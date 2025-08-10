@@ -23,7 +23,7 @@ namespace BackEnd.Controllers
         }
 
         //Método para iniciar sesión 
-        //Utilizo DTOs para no comprometer el modelo de la tabla
+        //Utilizo DTOs para no comprometer el modelo de la DB
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] UsuarioDTO usuario)
         {

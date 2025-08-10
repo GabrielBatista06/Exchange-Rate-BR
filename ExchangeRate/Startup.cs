@@ -4,6 +4,9 @@ using BackEnd.Domain.IRepositories;
 using BackEnd.Domain.IServices;
 using BackEnd.Persistence.Repositories;
 using BackEnd.Services;
+using ExchangeRate.Domain.IRepositories;
+using ExchangeRate.Persistence.Repositories;
+using ExchangeRate.Services;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -41,10 +44,16 @@ namespace ExchangeRate
             //Mappeo
             services.AddAutoMapper(typeof(Startup));
 
+            // Mocks
+           services.AddScoped<IObtenerRemesaRepository, Api1Repository>();
+           services.AddScoped<IObtenerRemesaRepository, Api2Repository>();
+           services.AddScoped<IObtenerRemesaRepository, Api3Repository>();
 
 
             //Service
             services.AddScoped<ILoginService, LoginService>();
+            services.AddScoped<ObtenerMejorOfertaService>();
+
 
             //Repository
             services.AddScoped<ILoginRepository, LoginRepository>();
