@@ -1,5 +1,6 @@
 ﻿using ExchangeRate.DTOs;
 using ExchangeRate.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -19,6 +20,8 @@ namespace ExchangeRate.Controllers
 
 
         [HttpPost("GetBestDeal")]
+       // [Authorize]
+       //Si deseas probar el login descomenta la parte de arriba y vuelve a lanzar el proyecto
         public async Task<IActionResult> GetBestOffer([FromBody] RQProcessDTO request)
         {
             try
