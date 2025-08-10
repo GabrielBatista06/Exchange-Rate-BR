@@ -45,8 +45,6 @@ namespace ExchangeRate.Services
                 throw;
             }
 
-
-
           
         }
     }

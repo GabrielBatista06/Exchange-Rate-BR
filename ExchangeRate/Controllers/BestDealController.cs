@@ -1,6 +1,5 @@
 ﻿using ExchangeRate.DTOs;
 using ExchangeRate.Services;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Threading.Tasks;
@@ -17,7 +16,6 @@ namespace ExchangeRate.Controllers
         {
             _service = service;
         }
-
 
         [HttpPost("GetBestDeal")]
        // [Authorize]

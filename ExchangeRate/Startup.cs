@@ -39,7 +39,7 @@ namespace ExchangeRate
             });
 
             //Mappeo
-            services.AddAutoMapper(typeof(Startup));
+           // services.AddAutoMapper(typeof(Startup));
 
             // Mocks
             services.AddScoped<IObtenerRemesaRepository, Api1Repository>();

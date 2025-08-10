@@ -7,7 +7,6 @@ using System.Threading.Tasks;
 
 namespace BackEnd.Persistence.Repositories
 {
-
     public class LoginRepository : ILoginRepository
     {
         private readonly IMapper _mapper;
