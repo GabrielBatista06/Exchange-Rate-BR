@@ -21,7 +21,7 @@ Patrón de diseño: Repositorio
 
 **Código limpio, escalable y documentado:** Se sigue un enfoque de buenas prácticas y estándares de desarrollo, incluyendo comentarios y guías que facilitan la comprensión.
 
-**ILogger: **Se integra un sistema de logging para rastrear el comportamiento del sistema y facilitar la depuración.
+**ILogger:** Se integra un sistema de logging para rastrear el comportamiento del sistema y facilitar la depuración.
 
 **Manejo de excepciones:** Se establece un sistema robusto para capturar, registrar y gestionar errores de manera controlada, evitando caídas inesperadas.
 
