@@ -48,7 +48,6 @@ curl --location 'https://localhost:44309/api/Login' \
 --header 'Content-Type: application/json-patch+json' \
 --data '{"nombreUsuario":"Gbatista","password":"3283BR2025"}'
 
-----------------------------------------BR----------------------------------------------------
 The concept is to request several currency exchange rate APIs for remittance offers and
 select the best deal.
 
